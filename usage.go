@@ -7,8 +7,7 @@ import (
 
 func usage() {
 	fmt.Println(
-		`usage: redis-exec <host> <keys> <command>
-`)
+		`usage: redis-exec <host> <keys> <command>`)
 
 	os.Exit(1)
 }
