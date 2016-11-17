@@ -1,14 +1,14 @@
 package main
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
 )
 
 func usage() {
-    fmt.Println(
-        `usage: redis-exec <host> <keys> <command>
+	fmt.Println(
+		`usage: redis-exec <host> <keys> <command>
 `)
 
-    os.Exit(1)
+	os.Exit(1)
 }
